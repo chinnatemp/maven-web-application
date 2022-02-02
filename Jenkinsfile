@@ -3,7 +3,7 @@ node ('master')
   
   def mavenHome = tool name: "maven3.6.3"
   
-      echo "GitHub BranchName ${env.BRANCH_NAME}"
+      echo "GitHub Branch Name ${env.BRANCH_NAME}"
       echo "Jenkins Job Number ${env.BUILD_NUMBER}"
       echo "Jenkins Node Name ${env.NODE_NAME}"
   
